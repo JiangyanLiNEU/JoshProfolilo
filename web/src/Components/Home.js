@@ -1,8 +1,8 @@
 
-import Img from '../img/josh-1.jpeg';
 import {Container, Row, Image, Col, ToastContainer, Toast} from 'react-bootstrap';
 import small from '../img/photo2.jpeg';
-
+import tree from '../img/stanfordtree.png';
+import bear from '../img/uclabear.png';
 
 export const Home = () => {
     const backGround = {backgroundColor: "#dfe7fd", padding: 10};
@@ -12,7 +12,7 @@ export const Home = () => {
             <Container style = {{margin:10}}>
                 <Row>
                     <Col >
-                        <Image src={Img} fluid/>
+                        <Image src={small} fluid/>
                     </Col>
                     <Col style={{margin:"auto"}}>
                         <Row><h3>Say something smart here</h3></Row>
@@ -21,6 +21,13 @@ export const Home = () => {
                     </Col>
                 </Row>
             </Container>
+        </div>
+        <div className='container' style={{padding:50}}>
+          <Row >
+              <Col style={{display:'flex', justifyContent:'center'}}><img style={{maxWidth:'80%', maxHeight:'80%'}} src={tree} alt='' fluid/></Col>
+              <Col style={{display:'flex', justifyContent:'center'}}><img style={{maxWidth:'80%', maxHeight:'80%'}} src={bear} alt='' fluid/></Col>
+              <Col></Col>
+          </Row>
         </div>
         <div className='container'>
         <ToastContainer position="bottom-end" style={{margin: 10}}>
