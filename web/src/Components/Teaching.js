@@ -1,6 +1,6 @@
 
-import { Container, ListGroup, Row, Col } from "react-bootstrap";
-import { YoutubeEmbed } from "./YoutubeEmbed";
+import { ListGroup} from "react-bootstrap";
+
 import { ControlledCarousel } from './Carousel';
 import Button from 'react-bootstrap/Button'
 export const Teaching = () => {
@@ -25,8 +25,8 @@ export const Teaching = () => {
           </div>
           <br/>
           <div style={{display:'flex', justifyContent:'center'}}>
-          <Button variant="outline-primary"><span style={{fontWeight:'bolder'}}>My Youtube Channel</span></Button>{' '}
            
+          <Button variant="outline-primary" target="_blank" href='https://www.youtube.com/channel/UCxtK8ZunVkJ5AsgKB1tOntg/videos'><span style={{fontWeight:'bolder'}}>My Youtube Channel</span></Button>{' '}
         </div>
         </div>
 
