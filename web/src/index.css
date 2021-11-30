@@ -13,6 +13,11 @@ h1 {
     font-family: 'Rock Salt', cursive;
 }
 
+#quoteContent {
+    font-family: 'Courgette';
+    font-size: 150%;
+}
+
 .video-responsive {
     overflow: hidden;
     padding-bottom: 56.25%;

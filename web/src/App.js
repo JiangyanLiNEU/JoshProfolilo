@@ -5,7 +5,7 @@ import {Math} from './Components/Math';
 import {CS} from './Components/CS';
 
 import {Hobby} from './Components/Hobby'
-import {BrowserRouter,Routes,Route,Link,Outlet} from 'react-router-dom';
+import {BrowserRouter,Routes,Route} from 'react-router-dom';
 
 export const App = () => {
   return (

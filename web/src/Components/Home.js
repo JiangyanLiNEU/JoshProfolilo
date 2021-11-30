@@ -3,6 +3,7 @@ import {Container, Row, Image, Col, ToastContainer, Toast} from 'react-bootstrap
 import small from '../img/photo2.jpeg';
 import tree from '../img/stanfordtree.png';
 import bear from '../img/uclabear.png';
+import { Quote } from './Quote';
 
 export const Home = () => {
     const backGround = {backgroundColor: "#dfe7fd", padding: 10};
@@ -15,9 +16,8 @@ export const Home = () => {
                         <Image src={small} fluid/>
                     </Col>
                     <Col style={{margin:"auto"}}>
-                        <Row><h3>Say something smart here</h3></Row>
-                        <Row><h4>Such as I love Lily.</h4></Row>
-                        <Row><h5>Or I will do laundry on time!</h5></Row>
+                        <Quote />
+                        
                     </Col>
                 </Row>
             </Container>
