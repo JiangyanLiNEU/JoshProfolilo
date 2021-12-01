@@ -23,5 +23,12 @@
   * Google translate API is not free so I just did hard code.
 * Finished math and cs page.
 ![HomePage](https://github.com/JiangyanLiNEU/JoshProfolilo/blob/master/home%20quote.png)
-![HomePage](https://github.com/JiangyanLiNEU/JoshProfolilo/blob/master/math.png)
-![HomePage](https://github.com/JiangyanLiNEU/JoshProfolilo/blob/master/cs.png)
+![MathPage](https://github.com/JiangyanLiNEU/JoshProfolilo/blob/master/math.png)
+![CSPage](https://github.com/JiangyanLiNEU/JoshProfolilo/blob/master/cs.png)
+ 
+
+<hr>
+
+### Nov.30 2021
+* Finished hobby page.
+![HobbyPage](https://github.com/JiangyanLiNEU/JoshProfolilo/blob/master/hobbyPage.png)
