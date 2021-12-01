@@ -41,6 +41,7 @@ export const Home = () => {
               </Toast>
             </ToastContainer>
         </div>
+        
         </div>
     );
 };

@@ -21,7 +21,7 @@ export const App = () => {
           <Route path='/Teaching' element={<Teaching/>}></Route>
           <Route path='/CS' element={<CS/>}></Route>
           <Route path='/Math' element={<Math/>}></Route>
-          <Route path='/Hobby' element={<Hobby/>}></Route>
+          <Route path='/Hobbies' element={<Hobby/>}></Route>
         </Routes>
       </BrowserRouter>
       </div>
