@@ -10,7 +10,7 @@ export const App = () => {
   return (
       <div>
       {console.log('inside App component')}
-      <Router>
+      <Router basename={window.localStorage.pathname || ''}>
       <Switch>
           <Route exact path='/' component={Home}/>
           <Route path='/Teaching' component={Teaching}/>
