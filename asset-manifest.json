@@ -1,28 +1,28 @@
 {
   "files": {
-    "main.css": "/JoshProfolilo/static/css/main.eb89d149.chunk.css",
-    "main.js": "/JoshProfolilo/static/js/main.b9146d7a.chunk.js",
-    "main.js.map": "/JoshProfolilo/static/js/main.b9146d7a.chunk.js.map",
-    "runtime-main.js": "/JoshProfolilo/static/js/runtime-main.00343e3e.js",
-    "runtime-main.js.map": "/JoshProfolilo/static/js/runtime-main.00343e3e.js.map",
-    "static/js/2.90f40b92.chunk.js": "/JoshProfolilo/static/js/2.90f40b92.chunk.js",
-    "static/js/2.90f40b92.chunk.js.map": "/JoshProfolilo/static/js/2.90f40b92.chunk.js.map",
-    "index.html": "/JoshProfolilo/index.html",
-    "static/css/main.eb89d149.chunk.css.map": "/JoshProfolilo/static/css/main.eb89d149.chunk.css.map",
-    "static/js/2.90f40b92.chunk.js.LICENSE.txt": "/JoshProfolilo/static/js/2.90f40b92.chunk.js.LICENSE.txt",
-    "static/media/boba tasting.0b8bc529.JPG": "/JoshProfolilo/static/media/boba tasting.0b8bc529.JPG",
-    "static/media/book.895a5af0.jpeg": "/JoshProfolilo/static/media/book.895a5af0.jpeg",
-    "static/media/chess.0abfab81.jpeg": "/JoshProfolilo/static/media/chess.0abfab81.jpeg",
-    "static/media/hiking.c2e20146.JPG": "/JoshProfolilo/static/media/hiking.c2e20146.JPG",
-    "static/media/photo2.465eb27d.jpeg": "/JoshProfolilo/static/media/photo2.465eb27d.jpeg",
-    "static/media/sking.cc14a242.JPG": "/JoshProfolilo/static/media/sking.cc14a242.JPG",
-    "static/media/travling.a4285cd4.JPG": "/JoshProfolilo/static/media/travling.a4285cd4.JPG",
-    "static/media/uclabear.5cbd0c07.png": "/JoshProfolilo/static/media/uclabear.5cbd0c07.png"
+    "main.css": "/static/css/main.eb89d149.chunk.css",
+    "main.js": "/static/js/main.854a8e24.chunk.js",
+    "main.js.map": "/static/js/main.854a8e24.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.a17659fa.js",
+    "runtime-main.js.map": "/static/js/runtime-main.a17659fa.js.map",
+    "static/js/2.b69fbecb.chunk.js": "/static/js/2.b69fbecb.chunk.js",
+    "static/js/2.b69fbecb.chunk.js.map": "/static/js/2.b69fbecb.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/main.eb89d149.chunk.css.map": "/static/css/main.eb89d149.chunk.css.map",
+    "static/js/2.b69fbecb.chunk.js.LICENSE.txt": "/static/js/2.b69fbecb.chunk.js.LICENSE.txt",
+    "static/media/boba tasting.0b8bc529.JPG": "/static/media/boba tasting.0b8bc529.JPG",
+    "static/media/book.895a5af0.jpeg": "/static/media/book.895a5af0.jpeg",
+    "static/media/chess.0abfab81.jpeg": "/static/media/chess.0abfab81.jpeg",
+    "static/media/hiking.c2e20146.JPG": "/static/media/hiking.c2e20146.JPG",
+    "static/media/photo2.465eb27d.jpeg": "/static/media/photo2.465eb27d.jpeg",
+    "static/media/sking.cc14a242.JPG": "/static/media/sking.cc14a242.JPG",
+    "static/media/travling.a4285cd4.JPG": "/static/media/travling.a4285cd4.JPG",
+    "static/media/uclabear.5cbd0c07.png": "/static/media/uclabear.5cbd0c07.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.00343e3e.js",
-    "static/js/2.90f40b92.chunk.js",
+    "static/js/runtime-main.a17659fa.js",
+    "static/js/2.b69fbecb.chunk.js",
     "static/css/main.eb89d149.chunk.css",
-    "static/js/main.b9146d7a.chunk.js"
+    "static/js/main.854a8e24.chunk.js"
   ]
 }
