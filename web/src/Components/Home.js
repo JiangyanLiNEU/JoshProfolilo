@@ -9,6 +9,7 @@ export const Home = () => {
     const backGround = {backgroundColor: "#dfe7fd", padding: 10};
     return (
         <div>
+        {console.log("Hit inside the Home page")}
         <div style={backGround} className='container'>
             <Container style = {{margin:10}}>
                 <Row>

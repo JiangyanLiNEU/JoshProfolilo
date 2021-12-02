@@ -2,14 +2,13 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import {App} from './App';
-import { BrowserRouter, HashRouter } from 'react-router-dom';
-
+import { NavBar } from './Components/NavBar';
 ReactDOM.render(
-  <React.StrictMode>
-    <BrowserRouter>
-      <App/>
-    </BrowserRouter>
-  </React.StrictMode>
+  <div>
+  <NavBar/>
+  <App/>
+  </div>
+  
   ,
   document.getElementById('root')
 );
