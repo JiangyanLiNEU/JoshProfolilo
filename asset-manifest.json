@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/JiangyanLiNEU/JoshProfolilo.git/static/css/main.eb89d149.chunk.css",
-    "main.js": "/JiangyanLiNEU/JoshProfolilo.git/static/js/main.854a8e24.chunk.js",
-    "main.js.map": "/JiangyanLiNEU/JoshProfolilo.git/static/js/main.854a8e24.chunk.js.map",
+    "main.js": "/JiangyanLiNEU/JoshProfolilo.git/static/js/main.474582c2.chunk.js",
+    "main.js.map": "/JiangyanLiNEU/JoshProfolilo.git/static/js/main.474582c2.chunk.js.map",
     "runtime-main.js": "/JiangyanLiNEU/JoshProfolilo.git/static/js/runtime-main.0c8e0cfb.js",
     "runtime-main.js.map": "/JiangyanLiNEU/JoshProfolilo.git/static/js/runtime-main.0c8e0cfb.js.map",
     "static/js/2.b69fbecb.chunk.js": "/JiangyanLiNEU/JoshProfolilo.git/static/js/2.b69fbecb.chunk.js",
@@ -23,6 +23,6 @@
     "static/js/runtime-main.0c8e0cfb.js",
     "static/js/2.b69fbecb.chunk.js",
     "static/css/main.eb89d149.chunk.css",
-    "static/js/main.854a8e24.chunk.js"
+    "static/js/main.474582c2.chunk.js"
   ]
 }
