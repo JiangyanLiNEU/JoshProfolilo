@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/JoshProfolilo/static/css/main.eb89d149.chunk.css",
-    "main.js": "/JoshProfolilo/static/js/main.13c9566a.chunk.js",
-    "main.js.map": "/JoshProfolilo/static/js/main.13c9566a.chunk.js.map",
+    "main.js": "/JoshProfolilo/static/js/main.b9146d7a.chunk.js",
+    "main.js.map": "/JoshProfolilo/static/js/main.b9146d7a.chunk.js.map",
     "runtime-main.js": "/JoshProfolilo/static/js/runtime-main.00343e3e.js",
     "runtime-main.js.map": "/JoshProfolilo/static/js/runtime-main.00343e3e.js.map",
-    "static/js/2.499db10e.chunk.js": "/JoshProfolilo/static/js/2.499db10e.chunk.js",
-    "static/js/2.499db10e.chunk.js.map": "/JoshProfolilo/static/js/2.499db10e.chunk.js.map",
+    "static/js/2.90f40b92.chunk.js": "/JoshProfolilo/static/js/2.90f40b92.chunk.js",
+    "static/js/2.90f40b92.chunk.js.map": "/JoshProfolilo/static/js/2.90f40b92.chunk.js.map",
     "index.html": "/JoshProfolilo/index.html",
     "static/css/main.eb89d149.chunk.css.map": "/JoshProfolilo/static/css/main.eb89d149.chunk.css.map",
-    "static/js/2.499db10e.chunk.js.LICENSE.txt": "/JoshProfolilo/static/js/2.499db10e.chunk.js.LICENSE.txt",
+    "static/js/2.90f40b92.chunk.js.LICENSE.txt": "/JoshProfolilo/static/js/2.90f40b92.chunk.js.LICENSE.txt",
     "static/media/boba tasting.0b8bc529.JPG": "/JoshProfolilo/static/media/boba tasting.0b8bc529.JPG",
     "static/media/book.895a5af0.jpeg": "/JoshProfolilo/static/media/book.895a5af0.jpeg",
     "static/media/chess.0abfab81.jpeg": "/JoshProfolilo/static/media/chess.0abfab81.jpeg",
@@ -21,8 +21,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.00343e3e.js",
-    "static/js/2.499db10e.chunk.js",
+    "static/js/2.90f40b92.chunk.js",
     "static/css/main.eb89d149.chunk.css",
-    "static/js/main.13c9566a.chunk.js"
+    "static/js/main.b9146d7a.chunk.js"
   ]
 }
