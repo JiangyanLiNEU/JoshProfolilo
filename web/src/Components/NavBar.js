@@ -14,11 +14,11 @@ export const NavBar = () => {
               <Nav.Link href='/JoshProfolilo'>home</Nav.Link>
                 <Nav.Link href='/JoshProfolilo/#Teaching#Teaching' >Teaching</Nav.Link>
                 <NavDropdown title="Math/CS" id="basic-nav-dropdown">
-                  <NavDropdown.Item href="/JoshProfolilo/#Math#Math">Math Research</NavDropdown.Item>
-                  <NavDropdown.Item href="/JoshProfolilo/#CS#CS">CS Experience</NavDropdown.Item>
-                  <NavDropdown.Item href="/JoshProfolilo/#Hobbies#Hobbies">Hobbies</NavDropdown.Item>
+                  <NavDropdown.Item id='dropItem' href="/JoshProfolilo/#Math#Math">Math Research</NavDropdown.Item>
+                  <NavDropdown.Item id='dropItem' href="/JoshProfolilo/#CS#CS">CS Experience</NavDropdown.Item>
+                  <NavDropdown.Item id='dropItem' href="/JoshProfolilo/#Hobbies#Hobbies">Hobbies</NavDropdown.Item>
                   <NavDropdown.Divider />
-                  <NavDropdown.Item href="https://www.linkedin.com/in/joshua-kazdan-16ba49201/" target="_blank">My Linkedin</NavDropdown.Item>
+                  <NavDropdown.Item id='dropItem' href="https://www.linkedin.com/in/joshua-kazdan-16ba49201/" target="_blank">My Linkedin</NavDropdown.Item>
                 </NavDropdown>
               </Nav>
             </Navbar.Collapse>
