@@ -12,14 +12,16 @@ export const NavBar = () => {
             <Navbar.Collapse id="basic-navbar-nav">
               <Nav className="me-auto">
               <Nav.Link href='/JoshProfolilo'>home</Nav.Link>
-                <Nav.Link href='/JoshProfolilo/#Teaching#Teaching' >Teaching</Nav.Link>
+                {/* <Nav.Link href='/JoshProfolilo/#Teaching#Teaching' >Teaching</Nav.Link> */}
                 <NavDropdown title="Math/CS" id="basic-nav-dropdown">
                   <NavDropdown.Item id='dropItem' href="/JoshProfolilo/#Math#Math">Math Research</NavDropdown.Item>
-                  <NavDropdown.Item id='dropItem' href="/JoshProfolilo/#CS#CS">CS Experience</NavDropdown.Item>
-                  <NavDropdown.Item id='dropItem' href="/JoshProfolilo/#Hobbies#Hobbies">Hobbies</NavDropdown.Item>
+                  <NavDropdown.Item id='dropItem' href="/JoshProfolilo/#CS#CS">Experience</NavDropdown.Item>
+                  <NavDropdown.Item id='dropItem' href="/JoshProfolilo/#Teaching#Teaching">Teaching</NavDropdown.Item>
                   <NavDropdown.Divider />
                   <NavDropdown.Item id='dropItem' href="https://www.linkedin.com/in/joshua-kazdan-16ba49201/" target="_blank">My Linkedin</NavDropdown.Item>
+                  <NavDropdown.Item id='dropItem' href="https://drive.google.com/file/d/1g3ZkbDpH9Zg0izXhAWS8CNxW3ohr2BjA/view?usp=sharing" target="_blank">My CV</NavDropdown.Item>
                 </NavDropdown>
+                <Nav.Link href='/JoshProfolilo/#Hobbies#Hobbies' >Hobbies</Nav.Link>
               </Nav>
             </Navbar.Collapse>
           </Container>

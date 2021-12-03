@@ -9,25 +9,28 @@ export const Home = () => {
     const backGround = {backgroundColor: "#dfe7fd", padding: 10};
     return (
         <div id='homeDiv'>
+
+
         <div style={backGround} className='container'>
             <Container style = {{margin:10}}>
                 <Row>
-                    <Col sm>
+                    <Col>
                         <Image src={small} fluid/>
                     </Col>
                     <br/>
-                    <Col sm style={{margin:"auto"}}>
+                    <Col style={{margin:"auto"}}>
+                    
                         <Quote />
-                        
                     </Col>
                 </Row>
             </Container>
         </div>
+
+
         <div className='container' style={{padding:50}}>
           <Row >
               <Col style={{display:'flex', justifyContent:'center'}}><img style={{maxWidth:'80%', maxHeight:'80%'}} src={tree} alt='' fluid/></Col>
               <Col style={{display:'flex', justifyContent:'center'}}><img style={{maxWidth:'80%', maxHeight:'80%'}} src={bear} alt='' fluid/></Col>
-              <Col></Col>
           </Row>
         </div>
         <br/>

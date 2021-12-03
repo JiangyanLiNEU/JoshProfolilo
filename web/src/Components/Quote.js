@@ -2,14 +2,20 @@ import Button from 'react-bootstrap/Button';
 import { useState } from 'react';
 import {Row, Col} from 'react-bootstrap';
 export const Quote =  () => {
-    const [content, setcontent] = useState("Displaying a smart sentence in homepage seems like neccessary, so click the button below to get unlimited random smart quotes. click the translate button if you are interested in 中文 :) ");
+    const [content, setcontent] = useState("People always display smart sentences on their homepages.  Click the button below to get unlimited smart quotes randomly selected by Google. If you are interested in learning 中文, click the translate button :)");
     const [edition, setedition] = useState('English');
-    const [buttonContent, setbuttonContent] = useState('翻译成中文');
-    
+    const [buttonContent, setbuttonContent] = useState('中文');
+    const [intro, setintro] = useState(<span>I am a second year graduate student at UCLA interested in <span style={{color:'#9fa0ff', fontWeight:'bolder', fontSize:'x-large'}}>algebraic geometry</span> and <span style={{color:'#9fa0ff', fontWeight:'bolder', fontSize:'x-large'}}>deep learning theory</span>.</span>);
+    const [showIntro, setshowIntro] = useState(true);
+    let count= 0;
     const handleClick = async () => {
+        if (count===0){
+            setshowIntro(false);
+            count++;
+        }else{
         try{
+            
             const response = await fetch("https://api.quotable.io/random", {"method": "GET"})
-        
             if (response.ok){
                 const data = await response.json();
                 setcontent(data.content);
@@ -18,7 +24,7 @@ export const Quote =  () => {
             }
         }catch{
             setcontent('Oops, my fetch API is not working.. I will fix it ASAP!')
-        }
+        }}
         
     }
     
@@ -33,19 +39,25 @@ export const Quote =  () => {
         };
 
     };
+    const handleAbout = () => {
+        setshowIntro(true);
+    }
 
     // const content = response.ok ? data.content : 'Sorry my api is not working well! I will fix it ASAP! '
     return (
         <div>
             <div id='quoteContent' className='container' >
-            {content}
+            {(showIntro && intro) || (content)}
             </div>
             <br/>
             <div className='container'>
             <Row>
-            <Col><Button id='quoteBtn' onClick={() => handleClick()} variant="outline-primary" style={{fontWeight:'bold'}}>Get a quote</Button>{' '}</Col>
+            <Col><Button id='quoteBtn' onClick={handleAbout} variant="outline-primary" style={{fontWeight:'bold'}}>About me</Button>{' '}</Col>
+            <Col><Button id='quoteBtn' onClick={() => handleClick()} variant="outline-primary" style={{fontWeight:'bold'}}>Quote</Button>{' '}</Col>
             <Col><Button id='quoteBtn' onClick={() => translate()} variant="outline-primary" style={{fontWeight:'bold'}}>{buttonContent}</Button>{' '}</Col>
-            </Row></div>
+            </Row>
+            </div>
+            
         </div>
     )
 };

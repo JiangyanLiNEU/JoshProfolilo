@@ -25,7 +25,7 @@ export const TToast = () => {
           <Toast.Body>Hello! I am Joshua Kazdan! Welcome to my website! Feel free to send email to me if you want to talk to me! Hope you have a great day! 
           <br/> 
           <ul>
-          <li>Email: <a href='#'>kazdan@g.ucla.edu</a></li>
+          <li>Email: <a href='http://www.gmail.com/'>kazdan@g.ucla.edu</a></li>
           <li>Address: UCLA Math Department</li>
           </ul>
           </Toast.Body>
