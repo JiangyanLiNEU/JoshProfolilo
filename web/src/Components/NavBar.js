@@ -19,7 +19,7 @@ export const NavBar = () => {
                   <NavDropdown.Item id='dropItem' href="/JoshProfolilo/#Teaching#Teaching">Teaching</NavDropdown.Item>
                   <NavDropdown.Divider />
                   <NavDropdown.Item id='dropItem' href="https://www.linkedin.com/in/joshua-kazdan-16ba49201/" target="_blank">My Linkedin</NavDropdown.Item>
-                  <NavDropdown.Item id='dropItem' href="https://drive.google.com/file/d/1g3ZkbDpH9Zg0izXhAWS8CNxW3ohr2BjA/view?usp=sharing" target="_blank">My CV</NavDropdown.Item>
+                  <NavDropdown.Item id='dropItem' href="https://drive.google.com/file/d/1s-hhT459caqVm80Kwjyy0qSNrz3ne4Am/view?ts=61a9afa3" target="_blank">My CV</NavDropdown.Item>
                 </NavDropdown>
                 <Nav.Link href='/JoshProfolilo/#Hobbies#Hobbies' >Hobbies</Nav.Link>
               </Nav>

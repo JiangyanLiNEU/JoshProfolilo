@@ -1,11 +1,11 @@
 import Button from 'react-bootstrap/Button';
 import { useState } from 'react';
-import {Row, Col} from 'react-bootstrap';
+import {ButtonGroup} from 'react-bootstrap';
 export const Quote =  () => {
     const [content, setcontent] = useState("People always display smart sentences on their homepages.  Click the button below to get unlimited smart quotes randomly selected by Google. If you are interested in learning 中文, click the translate button :)");
     const [edition, setedition] = useState('English');
     const [buttonContent, setbuttonContent] = useState('中文');
-    const [intro, setintro] = useState(<span>I am a second year graduate student at UCLA interested in <span style={{color:'#9fa0ff', fontWeight:'bolder', fontSize:'x-large'}}>algebraic geometry</span> and <span style={{color:'#9fa0ff', fontWeight:'bolder', fontSize:'x-large'}}>deep learning theory</span>.</span>);
+    const [intro, setintro] = useState(<span>I am a second year graduate student at UCLA interested in <span style={{color:'#9fa0ff', fontWeight:'bolder'}}>algebraic geometry</span> and <span style={{color:'#9fa0ff', fontWeight:'bolder'}}>deep learning theory</span>.</span>);
     const [showIntro, setshowIntro] = useState(true);
     let count= 0;
     const handleClick = async () => {
@@ -51,11 +51,11 @@ export const Quote =  () => {
             </div>
             <br/>
             <div className='container'>
-            <Row>
-            <Col><Button id='quoteBtn' onClick={handleAbout} variant="outline-primary" style={{fontWeight:'bold'}}>About me</Button>{' '}</Col>
-            <Col><Button id='quoteBtn' onClick={() => handleClick()} variant="outline-primary" style={{fontWeight:'bold'}}>Quote</Button>{' '}</Col>
-            <Col><Button id='quoteBtn' onClick={() => translate()} variant="outline-primary" style={{fontWeight:'bold'}}>{buttonContent}</Button>{' '}</Col>
-            </Row>
+            <ButtonGroup className="mb-2">
+            <Button id='quoteBtn' onClick={handleAbout} variant="outline-primary" style={{fontWeight:'bold'}}>About me</Button>{' '}
+            <Button id='quoteBtn' onClick={handleClick} variant="outline-primary" style={{fontWeight:'bold'}}>Quote</Button>{' '}
+            <Button id='quoteBtn' onClick={translate} variant="outline-primary" style={{fontWeight:'bold'}}>{buttonContent}</Button>{' '}
+            </ButtonGroup>
             </div>
             
         </div>

@@ -19,11 +19,11 @@ h1 {
         font-size: 85%;
     }
     #quoteContent {
-        font-size: 4vw;
+        font-size: small;
         font-family: 'Courgette';
     }
     #quoteBtn {
-        font-size: 3vw;
+        font-size: small;
     }
     #dropItem {
         font-size: small;
@@ -32,7 +32,7 @@ h1 {
 
 @media screen and (min-width: 581px) {
     #quoteContent {
-        font-size: 150%;
+        font-size: large;
         font-family: 'Courgette';
     }
 }

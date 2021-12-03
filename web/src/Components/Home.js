@@ -9,8 +9,6 @@ export const Home = () => {
     const backGround = {backgroundColor: "#dfe7fd", padding: 10};
     return (
         <div id='homeDiv'>
-
-
         <div style={backGround} className='container'>
             <Container style = {{margin:10}}>
                 <Row>
@@ -19,7 +17,6 @@ export const Home = () => {
                     </Col>
                     <br/>
                     <Col style={{margin:"auto"}}>
-                    
                         <Quote />
                     </Col>
                 </Row>
