@@ -9,6 +9,8 @@ export const Home = () => {
     const backGround = {backgroundColor: "#dfe7fd", padding: 10};
     return (
         <div id='homeDiv'>
+        <br/>
+        <br/>
         <div style={backGround} className='container'>
             <Container style = {{margin:10}}>
                 <Row>
@@ -22,19 +24,13 @@ export const Home = () => {
                 </Row>
             </Container>
         </div>
-
-
+        <br/>
         <div className='container' style={{padding:50}}>
           <Row >
               <Col style={{display:'flex', justifyContent:'center'}}><img style={{maxWidth:'80%', maxHeight:'80%'}} src={tree} alt='' fluid/></Col>
               <Col style={{display:'flex', justifyContent:'center'}}><img style={{maxWidth:'80%', maxHeight:'80%'}} src={bear} alt='' fluid/></Col>
           </Row>
         </div>
-        <br/>
-        <br/>
-        <br/>
-        <br/>
-        <br/>
         <br/>
         <TToast/>
         

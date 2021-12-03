@@ -10,11 +10,12 @@ export const TToast = () => {
       setShowA(!showA);
       setshowB(!showB);
     };
+    let height = window.innerHeight;
   return (
-      <div>
-      <div id='toast' style={{margin: 10, position:'fixed', bottom:0, right:0}}>{showB && <Button onClick={toggleShowA}>Message from Josh</Button>}</div>
+      <div style={{display:'flex', justifyContent:'end'}}>
+      <div id='toast' style={{margin: 10}}>{showB && <Button onClick={toggleShowA}>Message from Josh</Button>}</div>
       
-    <ToastContainer id='toast' style={{margin: 10, position:'fixed', bottom:0, right:0}}>
+    <ToastContainer id='toast'style={{margin: 10}}>
         
         <Toast show={showA} onClose={toggleShowA}>
           <Toast.Header>
@@ -22,11 +23,11 @@ export const TToast = () => {
                   <strong className="me-auto">Josh</strong>
                   <small className="text-muted">2 seconds ago</small>
           </Toast.Header>
-          <Toast.Body>Hello! I am Joshua Kazdan! Welcome to my website! Feel free to send email to me if you want to talk to me! Hope you have a great day! 
+          <Toast.Body>Hello! I am <strong>Joshua Kazdan</strong>! Welcome to my website! Feel free to send email to me if you want to talk to me! Hope you have a great day! 
           <br/> 
           <ul>
           <li>Email: <a href='http://www.gmail.com/'>kazdan@g.ucla.edu</a></li>
-          <li>Address: UCLA Math Department</li>
+          <li>Address: <a href='#'>UCLA Math Department</a></li>
           </ul>
           </Toast.Body>
         </Toast></ToastContainer></div>
