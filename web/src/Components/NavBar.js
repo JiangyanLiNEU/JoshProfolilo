@@ -7,7 +7,7 @@ export const NavBar = () => {
       <div><br/>
         <Navbar position='sticky' bg="light" expand="lg">
           <Container>
-            <Navbar.Brand href="/JoshProfolilo"><h1 >Joshua Kazdan</h1></Navbar.Brand>
+            <Navbar.Brand href="/JoshProfolilo"><h1 id='name'>Joshua Kazdan</h1></Navbar.Brand>
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
             <Navbar.Collapse id="basic-navbar-nav">
               <Nav className="me-auto">

@@ -2,7 +2,7 @@ import Button from 'react-bootstrap/Button';
 import { useState } from 'react';
 import {Row, Col} from 'react-bootstrap';
 export const Quote =  () => {
-    const [content, setcontent] = useState("People always display smart sentence in their homepage, so click the button below to get unlimited random smart quote. If you are interested in learning 中文, click the translate button :) ");
+    const [content, setcontent] = useState("Displaying a smart sentence in homepage seems like neccessary, so click the button below to get unlimited random smart quotes. click the translate button if you are interested in 中文 :) ");
     const [edition, setedition] = useState('English');
     const [buttonContent, setbuttonContent] = useState('翻译成中文');
     
@@ -43,8 +43,8 @@ export const Quote =  () => {
             <br/>
             <div className='container'>
             <Row>
-            <Col><Button onClick={() => handleClick()} variant="outline-primary" style={{fontWeight:'bold'}}>Get a quote</Button>{' '}</Col>
-            <Col><Button onClick={() => translate()} variant="outline-primary" style={{fontWeight:'bold'}}>{buttonContent}</Button>{' '}</Col>
+            <Col><Button id='quoteBtn' onClick={() => handleClick()} variant="outline-primary" style={{fontWeight:'bold'}}>Get a quote</Button>{' '}</Col>
+            <Col><Button id='quoteBtn' onClick={() => translate()} variant="outline-primary" style={{fontWeight:'bold'}}>{buttonContent}</Button>{' '}</Col>
             </Row></div>
         </div>
     )

@@ -13,10 +13,34 @@ h1 {
     font-family: 'Rock Salt', cursive;
 }
 
-#quoteContent {
+@media screen and (max-width: 760px) {
+    body {
+        font-size: 10%;
+    }
+    #name {
+        font-size: 85%;
+    }
+    #quoteContent {
+        font-size: 4vw;
+        font-family: 'Courgette';
+    }
+    #quoteBtn {
+        font-size: 3vw;
+    }
+}
+
+@media screen and (min-width: 761px) {
+    #quoteContent {
+        font-size: 150%;
+        font-family: 'Courgette';
+    }
+}
+
+
+/* #quoteContent {
     font-family: 'Courgette';
     font-size: 150%;
-}
+} */
 
 .video-responsive {
     overflow: hidden;
