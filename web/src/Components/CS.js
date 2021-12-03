@@ -9,8 +9,9 @@ import field from '../img/fields.png';
 export const CS = () => {
   let window_width = window.innerWidth;
   let window_height = window.innerHeight;
+  console.log(window_height)
   let height;
-  window_height <= 667 ?  height = window_height*0.7 : height = window_height-100;
+  window_height <= 667 ?  height = window_height*0.7 : height = window_height-110;
   const createItem = (time, cardTitle, url, subtitle, details, img) => {
     return {
       title: time,
