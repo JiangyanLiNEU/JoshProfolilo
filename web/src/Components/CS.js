@@ -6,6 +6,7 @@ import t from '../img/tiktok.jpeg';
 import v from '../img/volo.png';
 import em from '../img/emory.png';
 import field from '../img/fields.png';
+import g from '../img/gSearch.png';
 export const CS = () => {
   let window_width = window.innerWidth;
   let window_height = window.innerHeight;
@@ -30,6 +31,7 @@ export const CS = () => {
   const items = [
     createItem('July 2022', 'Microsoft Intern','','Data Science Intern','Will update detailed intern experience after I finish.',m),
     createItem('May 2022', 'Voloridge Asset Intern', '', 'Quant Researcher', 'First time trying quant trading/research, I am looking forward to it.', v),
+    createItem('April 2022', 'G-Research', '', 'Spring Insights Quant Week', 'Fly to UK for the Quant week sponsered by G-research', g),
     createItem('June 2021', 'Bytedance Intern','', 'AI Lab Research Scientist Intern','Josh: do you want to add some details here?',t),
     createItem('May 2019', 'Emory','https://uva.theopenscholar.com/ken-ono/reus','REU', 'Josh: do you want to add some details here?', em),
     createItem('July 2018', 'Fields Institude','http://www.fields.utoronto.ca/activities/21-22/2021-FUSRP', 'REU','Josh: do you want to add some details here?', field)
