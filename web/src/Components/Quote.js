@@ -54,7 +54,7 @@ export const Quote =  () => {
             <div className='container'>
             <ButtonGroup className="mb-2">
             <Button id='quoteBtn' onClick={handleAbout} variant="outline-primary" style={{fontWeight:'bold'}}>About me</Button>{' '}
-            <Button id='quoteBtn' onClick={handleClick} variant="outline-primary" style={{fontWeight:'bold'}}>Quote</Button>{' '}
+            <Button id='quoteBtn' onClick={handleClick} variant="outline-primary" style={{fontWeight:'bold'}}>Quote (double click)</Button>{' '}
             <Button id='quoteBtn' onClick={translate} variant="outline-primary" style={{fontWeight:'bold'}}>{buttonContent}</Button>{' '}
             </ButtonGroup>
             </div>
