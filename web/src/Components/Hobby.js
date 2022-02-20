@@ -12,7 +12,7 @@ const images = [
     {title:"Books",content: 'Book lists coming soon', obj: book},
     {title:"Traveling",content:'Lizzard Park', obj:travel},
     {title:"Skiing",content:'Tahoe or Canada?', obj:ski},
-    {title:"Hike",content:' If you are nice, you can invite me to hike with you using the form down below :)', obj:hike}
+    {title:"Hike",content:' Welcome to hike with me! Leave me a note here and I will get back to you ASAP :)', obj:hike}
 ]
 // chess, bobaTesting, travel, ski, hike];
 export const Hobby = () => {
