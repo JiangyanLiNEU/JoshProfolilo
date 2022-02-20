@@ -7,25 +7,26 @@ export const Quote =  () => {
     const [buttonContent, setbuttonContent] = useState('中文');
     const [intro, setintro] = useState(<span>I am a second year graduate student at UCLA interested in <span style={{color:'#9fa0ff', fontWeight:'bolder'}}>algebraic geometry</span> and <span style={{color:'#9fa0ff', fontWeight:'bolder'}}>deep learning theory</span>.</span>);
     const [showIntro, setshowIntro] = useState(true);
-    let count= 0;
+    
+    // let count= 0;
+
     const handleClick = async () => {
-        if (count===0){
+        // if (count===0){
             setshowIntro(false);
-            count++;
-        }else{
-        try{
-            
-            const response = await fetch("https://api.quotable.io/random", {"method": "GET"})
-            if (response.ok){
-                const data = await response.json();
-                setcontent(data.content);
-            }else{
+        //     count=1;
+        // }else{
+            try{
+                const response = await fetch("https://api.quotable.io/random", {"method": "GET"})
+                if (response.ok){
+                    const data = await response.json();
+                    setcontent(data.content);
+                }else{
+                    setcontent('Oops, my fetch API is not working.. I will fix it ASAP!')
+                }
+            }catch{
                 setcontent('Oops, my fetch API is not working.. I will fix it ASAP!')
             }
-        }catch{
-            setcontent('Oops, my fetch API is not working.. I will fix it ASAP!')
-        }}
-        
+        // }
     }
     
     
