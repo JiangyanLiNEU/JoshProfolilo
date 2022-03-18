@@ -15,6 +15,7 @@ export const NavBar = () => {
                 {/* <Nav.Link href='/JoshProfolilo/#Teaching#Teaching' >Teaching</Nav.Link> */}
                 <NavDropdown title="Math/CS" id="basic-nav-dropdown">
                   <NavDropdown.Item id='dropItem' href="/JoshProfolilo/#Math#Math">Math Research</NavDropdown.Item>
+                  <NavDropdown.Item id='dropItem' href="/JoshProfolilo/#result#result">Experimental Results</NavDropdown.Item>
                   <NavDropdown.Item id='dropItem' href="/JoshProfolilo/#CS#CS">Experience</NavDropdown.Item>
                   <NavDropdown.Item id='dropItem' href="/JoshProfolilo/#Teaching#Teaching">Teaching</NavDropdown.Item>
                   <NavDropdown.Divider />

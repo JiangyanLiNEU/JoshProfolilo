@@ -2,6 +2,7 @@ import { Home } from "./Components/Home";
 import { Teaching } from './Components/Teaching';
 import {Math} from './Components/Math';
 import {CS} from './Components/CS';
+import {Result} from './Components/Result';
 
 import {Hobby} from './Components/Hobby'
 import {Switch, Link, Route, HashRouter as Router} from 'react-router-dom';
@@ -14,6 +15,7 @@ export const App = () => {
       <Switch>
           <Route exact path='/' component={Home}/>
           <Route path='/Teaching' component={Teaching}/>
+          <Route path='/result' component={Result}/>
           <Route path='/CS'  component={CS}/>
           <Route path='/Math' component={Math}/>
           <Route path='/Hobbies' component={Hobby}/>
